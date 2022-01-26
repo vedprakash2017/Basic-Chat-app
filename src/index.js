@@ -11,7 +11,7 @@ const app = express()
 const server = http.createServer(app)
 const io = socket(server)
 
-const port = process.env.port
+const port = process.env.PORT
 const publicPath = path.join( __dirname , '../public')
 
 app.use( express.static(publicPath))

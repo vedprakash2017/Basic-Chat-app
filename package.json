@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.17.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
